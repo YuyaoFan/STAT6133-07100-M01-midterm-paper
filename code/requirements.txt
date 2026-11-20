@@ -1,0 +1,13 @@
+# 运行 code/analysis.py 与 code/make_paper.py 所需依赖
+# 实测环境：Python 3.13.5 (macOS, conda)
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.7
+statsmodels>=0.14
+reportlab>=4.0
+Pillow>=9.0
+
+# 可选：make_slides.py / make_video.py（演讲材料）
+pymupdf>=1.23
+imageio-ffmpeg>=0.4
